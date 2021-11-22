@@ -1,0 +1,124 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    width: 25vw;
+    height: 50vw;
+
+
+}
+
+.titulo-header{
+    background-color: #1CD1B0;
+    width: 100%;
+    height: 38px;
+    padding-left: 15px;
+    margin: 0;
+
+}
+
+ .titulo-principal{
+     position: sticky;
+     width: 100%;
+     height: 101px;
+     margin: 0;
+     padding-left: 15px;
+     background-color: #00669f;
+ }   
+
+ .hader{
+     top: 0;
+     position: sticky;
+    
+ }
+
+ .cardsContainer{
+     display: flex;
+     justify-content: space-around;
+     align-items: flex-end;
+     height: 1000%;
+    
+ }
+
+ .cardharley{
+     position:relative;
+     background-color:#F3F3F3;
+     height: 600px;
+     width: 300px;
+     margin: 25px;
+     z-index: 0;
+ }
+
+ .fondo{
+     width: 300px;
+     height: 193px;
+     z-index: 1;
+ }
+
+ .reaccion{
+     position: relative;
+     width: 20px;
+     height: 20px;
+     bottom: 290px;
+     left: 20px;
+ }
+
+ .imagencentro{
+     position: relative;
+     height: 122px;
+     bottom: 70px;
+     left: 80px;
+     width: 122px;
+     border-radius: 50%;
+     z-index: 2;
+ }
+
+ h2{
+     position: relative;
+     text-align: center;
+     bottom: 50px;
+ }
+
+ p{
+     position: relative;
+     text-align: justify;
+     bottom: 40px;
+     font-size: 16px;
+     font-family: 'Roboto', sans-serif;
+     padding: 20px;
+
+ }
+
+ button{ 
+     position: relative;
+    background-color:#00669F;
+    color: whitesmoke;
+    width:128px ;
+    height: 30px;
+    left: 80px;
+    bottom: 40px;
+}
+ 
+footer{
+     background-color:#00669F;
+     color: white;
+     height: 50px;
+ }
+
+ @media (max-width: 1000px) {
+    .cardsContainer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .cardharley{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+
+  }

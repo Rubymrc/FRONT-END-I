@@ -1,0 +1,112 @@
+.titulo-header{
+  font-family: 'Roboto', sans-serif;
+  font-style:normal;
+  color:white;
+  font-size:20px;
+  line-height: 12px;
+  line-height:100%;
+  box-align:Left;
+  vertical-align:top;
+}
+
+.pestañas-pais{
+  contain: center;
+  contain: top;
+  color: white;
+  font-size: 20px;
+  text-align-last: right;
+}
+
+.lg{
+  background-color: orange ;
+
+}
+
+.logo{
+   width: 300px;
+   height: 50px;
+} 
+
+.barra-menu{
+  color: white;
+  position: relative;
+  text-align-last:right;
+  font-size: 16px;
+}
+
+
+.body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.titulo-img{
+  font-family: 'Roboto', sans-serif;
+  text-align-last: center;
+  font-size: 30px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.img-principal{
+  border: 5px solid;
+}
+
+h2{
+  text-align-last: center;
+  font-size: 40px;
+
+}
+.barra-accesos{
+  text-align-last: center;
+}
+
+.contenedor{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.texto-encima{
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.precio{
+  color:orange;
+  font-size: 15px;
+}
+
+.datosUbicacion{
+  background-color:#45220A;
+  color: white;
+
+  }
+
+.textoFooter{
+  text-align-last: center;
+  background-color: black;
+  color:white;
+  font-size: 10px;
+}
+
+.img-cat{
+  width: 100px;
+  height: 30px;
+}
+
+
+.fas fa-map-marker-alt{
+    color: white;
+    Width:3.18px;
+    Height:13.18px;
+    Top:8px;
+    Left: 15.91px;
+
+}
+
